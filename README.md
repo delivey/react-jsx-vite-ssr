@@ -1,3 +1,3 @@
 # react-vite-ssr
-React + React Router + Vite SSR 🤌
 
+React + JSX + React Router + Vite SSR
