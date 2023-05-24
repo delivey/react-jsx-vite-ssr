@@ -4,7 +4,7 @@ import { Home } from "./pages/Home";
 import { Other } from "./pages/Other";
 import { NotFound } from "./pages/NotFound";
 
-export const Router = () => {
+export default function App() {
     return (
         <Routes>
             <Route index element={<Home />} />
@@ -13,4 +13,4 @@ export const Router = () => {
             <Route path="*" element={<NotFound />} />
         </Routes>
     );
-};
+}
