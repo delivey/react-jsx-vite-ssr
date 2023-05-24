@@ -3,11 +3,7 @@ import { StaticRouter } from "react-router-dom/server";
 
 import App from "./App";
 
-interface IRenderProps {
-    path: string;
-}
-
-export const render = ({ path }: IRenderProps) => {
+export const render = ({ path }) => {
     console.log(path);
     return ReactDOMServer.renderToString(
         <StaticRouter location={path}>
