@@ -1,3 +1,3 @@
 export const Other = () => {
-  return <div>Other Page</div>
-}
+    return <div>Other Page</div>;
+};
